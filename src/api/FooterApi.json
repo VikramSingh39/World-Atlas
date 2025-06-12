@@ -1,0 +1,18 @@
+
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Chandigarh, India"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "9876543210"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "srvikram23@gmail.com"
+  }
+]
