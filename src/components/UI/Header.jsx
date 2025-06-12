@@ -7,14 +7,14 @@ const Header = () => {
       <div className="grid navbar-grid">
         <div className="logo">
             <NavLink to="/">
-            <h1>World Atlas</h1>
+            <h1 className='text-5xl font-bold'>World Atlas</h1>
             </NavLink>
         </div>
         <nav>
             <ul>
                 <li>
                     <NavLink to="/">Home</NavLink>
-                </li>
+                </li> 
                 <li>
                     <NavLink to="/about">About</NavLink>
                 </li>
