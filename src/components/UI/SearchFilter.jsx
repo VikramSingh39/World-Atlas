@@ -12,17 +12,15 @@ const SearchFilter = ({search, setSearch, filter, SetFilter}) => {
     }
 
   return <section className='section-searchFilter container'>
-    <div>
-          <input type="text" placeholder='search' value={search} onChange={handleInputChange}/>
-    </div>
+ 
     
-          <div>
+          {/* <div>
         <button onClick={() => sortCountries("asc")}>Ascending </button>
       </div>
 
       <div>
         <button onClick={() => sortCountries("des")}>Descending</button>
-      </div>
+      </div> */}
 
    <div>
     <div>

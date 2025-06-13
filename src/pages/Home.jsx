@@ -1,16 +1,29 @@
 
 import '../App.css'
-import About from "./About";
 import HeroSection from "../components/UI/HeroSection";
+import Country from './Country';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate();
+  const handleNavigate = ()=>{
+    navigate('/country');
+  };
   return (
     <>
-    <HeroSection></HeroSection>
-    <About></About> 
+    <HeroSection/>
+
+    <Country limit={12}/>
+    <div className="viewAll">
+        <button className='HomeViewAllButton' onClick={handleNavigate}>View All</button>
+    </div>
+
+
+      
+
     </>
 
-  )
+  );
 }
 
 export default Home
